@@ -1,0 +1,48 @@
+body{
+    background-color: cornsilk;
+    font-family: lucida Sans-Serif;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+blockquote{
+    background-color: moccasin;
+    
+}
+
+#header{
+    background-color: lightsalmon;
+    text-align: center;
+}
+img{
+    width: 20%;
+}
+.gambar{
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+.koleksi{
+    background-color: black;
+}
+
+.promo{
+    margin: auto;
+    width: 35%;
+}
+.promoh2{
+    text-align: center;
+    color: crimson;
+}
+.promoh3{
+    background-color: aqua;
+    border: 5px solid black;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+#Wa{
+    color: yellow;
+}
