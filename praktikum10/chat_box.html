@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Message Box</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="login.html">Nomor 1</a></li>
+                <li><a href="kurs_rupiah.html">Nomor 2</a></li>
+                <li><a href="chat_box.html">Nomor 3</a></li>
+                <li><a href="img-picker.html">Nomor 4</a></li>
+                <li><a href="form.html">Nomor 5</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="box" id="box">
+        <div class="wadah_pesan" id="wadah_pesan">
+            <div class="pesan">
+                
+            </div>      
+        </div>
+        <div class="kirim">
+            <input id="masukan" type="text" value="" size="75"  onchange="chatbox()">
+            <button onclick="chatbox()">Send</button>
+    <br>
+    <script>
+                 function chatbox(){
+            const wadah = document.getElementById("wadah_pesan");
+            const inputan = document.getElementById("masukan").value;
+            if(inputan.trim() != ""){
+                wadah.innerHTML += `<div class="pesan"> <p>` + inputan.trim() + `</p> </div>`
+                masukan.value = "";
+            }
+        }
+    </script>
+</body>
+</html>
